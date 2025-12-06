@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: APISecurise
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/elearning-realm
+
+server:
+  port: 8081
+
+
